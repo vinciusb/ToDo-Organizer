@@ -1,0 +1,15 @@
+.newButton {
+    color: rgb(129, 129, 129);
+    font-weight: bold;
+}
+
+.newButton span {
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+
+.newButton:hover {
+    background-color: rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+    border-radius: 5px;
+}

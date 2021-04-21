@@ -1,0 +1,105 @@
+.ExplorerButton {
+    height: 21px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 5px;
+}
+
+.mini-bar {
+    height: 3px;
+    width: 20px;
+    background-color: black;
+}
+
+.ExplorerButton:hover {
+    cursor: pointer;
+}
+
+.ani-close {
+    animation: group-close 0.8s linear forwards;
+}
+
+.ani-close .mini-bar {
+    animation: shrink-close 0.8s linear forwards;
+}
+
+.ani-open {
+    animation: group-open 0.8s linear forwards;
+}
+
+.ani-open .mini-bar {
+    animation: shrink-open 0.8s linear forwards;
+}
+
+@keyframes group-close {
+    25% {
+        height: 3px;
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    60% {
+        height: 3px;
+        transform: rotate(90deg);
+    }
+    75% {
+        height: 21px;
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes shrink-close {
+    25% {
+        width: 20px;   
+    }
+    50% {
+        width: 3px; 
+    }
+    75% {
+        width: 3px; 
+    }
+    100% {
+        width: 20px;
+    }
+}
+
+@keyframes group-open {
+    0% {
+        transform: rotate(90deg);
+    }
+    25% {
+        height: 3px;
+    }
+    50% {
+        transform: rotate(90deg);
+    }
+    60% {
+        height: 3px;
+        transform: rotate(0deg);
+    }
+    75% {
+        height: 21px;
+    }
+    100% {
+
+    }
+}
+
+@keyframes shrink-open {
+    25% {
+        width: 20px;   
+    }
+    50% {
+        width: 3px; 
+    }
+    75% {
+        width: 3px; 
+    }
+    100% {
+        width: 20px;
+    }
+}

@@ -1,0 +1,43 @@
+/*TASK*/
+.Task {
+    border-bottom: rgb(179, 179, 179) 1px solid;
+}
+
+.Task .task-color {
+    height: 5px;
+    transition: height ease-out 0.12s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.TransitionDiv {
+    margin: 0;
+}
+
+.Task .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 5px 10px;
+}
+
+.task-resume-data p {
+    margin: 4px 0 0 0;
+    max-width: 75%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.task-resume-data .date {
+    font-size: 0.7rem;
+    margin-top: 6px;
+}
+
+.task-util {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin-left: 8px;
+}

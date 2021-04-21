@@ -1,0 +1,50 @@
+/* To Do*/
+.ToDo {
+    color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 0 5px 0 5px;
+    font-weight: bolder;
+}
+
+.ToDo .container:hover {
+    box-shadow: -3px black;
+    background-color: rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+}
+
+.ToDo .container {
+    padding: 10px 5px 0 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: rgb(179, 179, 179) 1px solid;
+}
+
+.ToDo h4 {
+    font-weight: bold;
+    border-bottom: rgb(179, 179, 179) 1px solid;
+    padding-left: 10px;
+}
+
+.ToDo h4:hover {
+    background-color: rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+}
+
+.ToDo input {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 2rem;
+    font-weight: bolder;
+    width: 50%;
+}
+
+.ToDo input:focus {
+    outline: none;
+}
+
+.ToDo .SpecialTextArea {
+    min-height: 1.4rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}

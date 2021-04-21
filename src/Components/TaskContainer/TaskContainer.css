@@ -1,0 +1,27 @@
+/*TASK CONTAINER*/
+.TaskContainer {
+    background-color: rgb(247, 247, 247);
+    align-self: flex-start;
+}
+
+.TaskContainer h2 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.TaskContainer header {
+    padding: 10px;
+    border-bottom: rgb(179, 179, 179) 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TaskContainer main {
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.TaskContainer main > * {
+    padding: 0px;
+}

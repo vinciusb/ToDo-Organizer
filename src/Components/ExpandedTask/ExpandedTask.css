@@ -1,0 +1,75 @@
+/*EXPANDED TASK*/
+.ExpandedTask {
+    width: 50%;
+    height: auto;
+    background-color: rgb(250, 250, 250);
+    border-radius: 4px;
+    box-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+.ExpandedTask header {
+    border-bottom: rgb(179, 179, 179) 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 10px 0 10px;
+}
+
+.ExpandedTask input {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 2rem;
+    font-weight: bolder;
+    width: 50%;
+}
+
+.ExpandedTask input:focus {
+    outline: none;
+}
+
+.ExpandedTask h1,h2,h3,h4 {
+    margin: 0;
+}
+
+.ExpandedTask h1 {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+.ExpandedTask h2 {
+    font-size: 1.1rem;
+}
+
+.ExpandedTask h3,h4 {
+    font-weight: lighter;
+}
+
+.ExpandedTask main {
+    padding: 10px;
+}
+
+.ExpandedTask .comments > *:not(h1), .sub-tasks > *:not(h1) {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .ExpandedTask {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .ExpandedTask header {
+        flex-wrap: wrap;
+    }
+
+    .ExpandedTask input {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .ExpandedTask {
+        width: 97%;
+    }
+}
