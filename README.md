@@ -1,4 +1,4 @@
-# Weather App
+# ToDo Organizer
 
 ToDo Organizer is a project that let the user create and organize his task. Project created using [React](https://reactjs.org/).
 
